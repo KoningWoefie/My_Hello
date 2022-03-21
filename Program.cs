@@ -6,6 +6,11 @@ namespace My_Hello
     {
         static void Main(string[] args)
         {
+            SayHello();
+        }
+        
+        static void SayHello()
+        {
             Console.WriteLine("Hello, world");
         }
     }
